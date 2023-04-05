@@ -1,0 +1,32 @@
+.todo-row{
+    background-color: #98FB98;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s all;
+}
+.completed{
+    background-color:#64cc64;
+    text-decoration: line-through;
+}
+
+.todoItem{
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon{
+    width: 30px;
+}
+
+.delet-icon , .edit-icon{
+    cursor: pointer;
+    size: 30px;
+}
+
+.edit-icon{
+    margin-right: 10px;
+}

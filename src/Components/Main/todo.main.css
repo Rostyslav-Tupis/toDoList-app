@@ -1,0 +1,18 @@
+
+.todoMain-container{
+    max-width: 800px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 20px;
+}
+.title-box{
+    margin-bottom: 15px;
+}
+.title{
+    font-family: 'Climate Crisis', cursive;
+    color: #2E8B57;
+    text-align: center;
+    font-size: 28px;
+}

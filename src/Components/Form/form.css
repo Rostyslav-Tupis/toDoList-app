@@ -1,0 +1,39 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.todoForm-wrapper{
+    text-align: center;
+}
+.form{
+    display: flex;
+}
+.input{
+    width: 100%;
+    padding: 6px 8px 6px 8px;
+}
+.customInput{
+    background: none;
+    color: black;
+    font-size: 22px;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: black;
+}
+
+.customInput.edit{
+    border: 3px solid #149fff !important;
+    font-style: italic;
+    background-color:rgb(255, 187, 127);
+}
+
+.editBtn{
+    background-color: white;
+    color: #2E8B57 !important;
+}
+.editBtn:hover{
+    color:#fff !important ;
+}
